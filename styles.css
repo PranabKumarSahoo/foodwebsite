@@ -159,3 +159,26 @@ h1 {
   box-shadow: 0 0.5rem 2rem grey;
   transition: 0.2s;
 }
+
+@media screen and (max-width: 900px) {
+  .menuDiv {
+    width: 100%;
+  }
+
+  .logo a {
+    font-size: 1rem;
+  }
+
+  .menu ul li {
+    margin: 0 5px 0 0;
+  }
+
+  .menu ul li a {
+    font-size: 0.5rem;
+    padding: 5px 5px;
+  }
+
+  h1 {
+    font-size: 1rem;
+  }
+}
